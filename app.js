@@ -7,6 +7,7 @@ var express = require('express');
 
 var app = express();
 
+app.use(express.basicAuth('tobi', 'ferret'));
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/repos'));
 
