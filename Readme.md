@@ -8,9 +8,18 @@
   First clone the repo then:
 
 ```
-$ component remote --add http://localhost:3000
 $ npm install
 $ node app
+```
+
+  Add the remote address to your app's component.json. Components will default to using github if they cannot be found in the given remotes.
+
+```json
+{
+  "remotes" : [
+    "https://localhost:3000"
+  ]
+}
 ```
 
   Now you can install private components:
