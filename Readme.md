@@ -1,7 +1,8 @@
 
 # Component Server
 
-  An example component "registry", aka a server that mimics Github urls.
+  An example component "registry", aka a server that mimics Github urls.  
+  __NOTE:__ this server is not compatible with component 1
 
 ## Installation
 
